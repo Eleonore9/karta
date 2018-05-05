@@ -11,10 +11,10 @@
       </h2>
       <div class="links">
         <a
-          href="/"
+          href="/map"
           class="button--green">Enter</a>
         <a
-          href="https://github.com/eleonore9"
+          href="https://github.com/Eleonore9/karta"
           target="_blank"
           class="button--grey">GitHub</a>
       </div>
