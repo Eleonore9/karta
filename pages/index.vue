@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <img src="~/static/map.png">
+    <img src="~/static/map.png" alt="map of Stockholm"/>
     <div>
       <app-logo/>
       <h1 class="title">
