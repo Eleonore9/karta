@@ -10,20 +10,23 @@
       Made by <a href="http://elle-est-au-nord.com/" target="_blank">Éléonore</a>
     </div>
     <div class="legend"> Legend </div>
-    <div class="map"> Map </div>
+    <map-view/>
   </section>
 </template>
 
 <script>
+import MapView from '~/components/MapView.vue'
 
 export default {
-
+  components: {
+    MapView
+  }
 }
 </script>
 
 <style>
 .container {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,21 +52,14 @@ h3 {
 
 .nav {
   width: 10%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: rgba(59, 128, 112, 0.7);
 }
 
 .legend {
   float: right;
   width: 30%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: rgba(82, 100, 136, 0.7);
 }
-
-.map {
-  border: 1px solid green;
-  width: 60%;
-  min-height: 100vh;
-}
-
 </style>
